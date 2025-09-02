@@ -15,7 +15,7 @@ import {
 
 function Card({ title, children, className = "" }) {
   return (
-    <div className={`bg-white rounded-2xl shadow-md p-5 border border-gray-100 ${className}`}>
+    <div className={`bg-white rounded-2xl p-5 border border-gray-100 ${className}`}>
       <h2 className="font-serif text-xl text-slate-800 mb-3">{title}</h2>
       <div className="font-sans text-sm text-black/80">{children}</div>
     </div>
